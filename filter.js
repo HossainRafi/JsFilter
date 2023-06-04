@@ -113,3 +113,15 @@ const displayProducts = (filteredProducts) => {
 };
 displayProducts(data);
 
+// Add event listener for search input ===========================
+searchInput.addEventListener("keyup", (e) => {
+  const value = e.target.value.toLowerCase();
+
+  if (value) {
+    displayProducts(
+      data.filter((item) => item.name.toLowerCase().indexOf(value) !== -1)
+    );
+  } else {
+    displayProducts(data);
+  }
+});

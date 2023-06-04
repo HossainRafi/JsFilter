@@ -68,8 +68,14 @@ h1 {
   gap: 30px;
   align-items: center;
   border-radius: 10px;
+  background-color: #cbcbcb;
+}
+
+.product:hover {
+  cursor: pointer;
   background-color: #ece9e9;
 }
+
 
 img {
   width: 150px;
