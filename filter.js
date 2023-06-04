@@ -1,3 +1,4 @@
+// Fake Data ==============================================
 const data = [
   {
     id: 1,
@@ -84,3 +85,11 @@ const data = [
     cat: "Dress",
   },
 ];
+
+// Variables ==================================================
+const productsContainer = document.querySelector(".products");
+const searchInput = document.querySelector(".search");
+const categoriesContainer = document.querySelector(".cats");
+const priceRange = document.querySelector(".priceRange");
+const priceValue = document.querySelector(".priceValue");
+
