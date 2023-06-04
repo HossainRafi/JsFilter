@@ -59,3 +59,13 @@ h1 {
   gap: 30px;
   align-items: center;
 }
+
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.name {
+  font-weight: 300;
+}
