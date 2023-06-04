@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #eeeeee;
+  background-color: #dbdbdb;
 }
 
 .container {
@@ -19,15 +19,23 @@ body {
 }
 
 .search {
-  padding: 10px;
-  width: 200px;
-  border: 1px solid #6c6c6c;
+  padding: 8px;
+  width: 250px;
+  border: 2px solid #9f9f9f;
+  border-radius: 5px;
+  background-color: #fff9f9;
+}
+
+.search:focus{
+    outline: none;
 }
 
 h1 {
   font-size: 30px;
   color: #4b4b4b;
-  font-weight: 300;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .cats {
@@ -39,7 +47,7 @@ h1 {
 .cat {
   cursor: pointer;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 5px;
 }
 
@@ -60,7 +68,7 @@ h1 {
   gap: 30px;
   align-items: center;
   border-radius: 10px;
-  background-color: #dddddd;
+  background-color: #ece9e9;
 }
 
 img {
@@ -74,8 +82,23 @@ img {
   font-weight: 500;
 }
 
+.priceValue {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
 .priceText {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 30px;
+}
+
+input[type="range"] {
+  height: 15px;
+  outline: none;
+  width: 180px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
 }
