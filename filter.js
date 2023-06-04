@@ -144,4 +144,13 @@ const setCategories = () => {
     `
     )
     .join("");
+
+    // Event listener for category ===================================
+  categoriesContainer.addEventListener("click", (e) => {
+    const selectedCat = e.target.textContent;
+
+    selectedCat === "All"
+      ? displayProducts(data)
+      : displayProducts(data.filter((item) => item.cat === selectedCat));
+  });
 };
