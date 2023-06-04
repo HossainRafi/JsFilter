@@ -6,6 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
 }
 
 .container {
@@ -20,12 +21,12 @@ body {
 .search {
   padding: 10px;
   width: 200px;
-  border: 1px solid gray;
+  border: 1px solid #6c6c6c;
 }
 
 h1 {
   font-size: 30px;
-  color: #555;
+  color: #4b4b4b;
   font-weight: 300;
 }
 
@@ -58,6 +59,8 @@ h1 {
   flex-direction: column;
   gap: 30px;
   align-items: center;
+  border-radius: 10px;
+  background-color: #dddddd;
 }
 
 img {
@@ -67,5 +70,12 @@ img {
 }
 
 .name {
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.priceText {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
