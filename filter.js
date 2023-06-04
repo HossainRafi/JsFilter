@@ -61,7 +61,7 @@ const data = [
     name: "Girls Pant",
     img: "https://i.ibb.co/c83ChVd/girls-pant.png",
     price: 55,
-    cat: "Casual",
+    cat: "Dress",
   },
   {
     id: 10,
