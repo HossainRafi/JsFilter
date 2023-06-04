@@ -12,6 +12,7 @@ body {
 .container {
   display: flex;
   padding: 50px;
+  gap: 100px;
 }
 
 .leftMenu {
@@ -51,8 +52,10 @@ h1 {
   padding: 5px;
   background-color: #cbcbcb;
   min-width: 50px;
-  max-width: 200px;
+  max-width: 250px;
   padding: 15px;
+  border: 2px solid #a8a8a8;
+  border-radius: 5px;
 }
 
 .cat:hover{
@@ -67,7 +70,7 @@ h1 {
 .products {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 75px;
 }
 
 .product {
@@ -78,6 +81,7 @@ h1 {
   align-items: center;
   border-radius: 10px;
   background-color: #cbcbcb;
+  border: 2px solid #a9a9a9;
 }
 
 .product:hover {

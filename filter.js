@@ -105,7 +105,7 @@ const displayProducts = (filteredProducts) => {
           alt=""
           />
           <span class="name">${product.name}</span>
-          <span class="priceText">$${product.price}</span>
+          <span class="priceText">Price: $${product.price}</span>
         </div>
     `
     )
