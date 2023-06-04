@@ -29,6 +29,19 @@ h1 {
   font-weight: 300;
 }
 
+.cats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cat {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+
 .content {
   flex: 4;
 }
