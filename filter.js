@@ -67,7 +67,7 @@ const data = [
     id: 10,
     name: "Xiaomi Watch",
     img: "https://i.ibb.co/VYntCvh/xiaomi-watch.png",
-    price: 399,
+    price: 299,
     cat: "Watch",
   },
   {
@@ -145,7 +145,7 @@ const setCategories = () => {
     )
     .join("");
 
-    // Event listener for category ===================================
+  // Event listener for category ===================================
   categoriesContainer.addEventListener("click", (e) => {
     const selectedCat = e.target.textContent;
 
@@ -154,3 +154,24 @@ const setCategories = () => {
       : displayProducts(data.filter((item) => item.cat === selectedCat));
   });
 };
+
+// Search by price range =========================================
+const setPrices = () => {
+  const priceList = data.map((item) => item.price);
+  const minPrice = Math.min(...priceList);
+  const maxPrice = Math.max(...priceList);
+
+  priceRange.min = minPrice;
+  priceRange.max = maxPrice;
+  priceRange.value = maxPrice;
+  priceValue.textContent = "$" + maxPrice;
+
+    // Price range event listener =====================================
+  priceRange.addEventListener("input", (e) => {
+    priceValue.textContent = "$" + e.target.value;
+    displayProducts(data.filter((item) => item.price <= e.target.value));
+  });
+};
+
+setCategories();
+setPrices();
