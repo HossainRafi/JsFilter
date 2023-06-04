@@ -125,3 +125,23 @@ searchInput.addEventListener("keyup", (e) => {
     displayProducts(data);
   }
 });
+
+// Set Categories =================================================
+const setCategories = () => {
+  const allCats = data.map((item) => item.cat);
+  const categories = [
+    "All",
+    ...allCats.filter((item, i) => {
+      return allCats.indexOf(item) === i;
+    }),
+  ];
+
+  categoriesContainer.innerHTML = categories
+    .map(
+      (cat) =>
+        `
+      <span class="cat">${cat}</span>
+    `
+    )
+    .join("");
+};
