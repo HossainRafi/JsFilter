@@ -93,3 +93,23 @@ const categoriesContainer = document.querySelector(".cats");
 const priceRange = document.querySelector(".priceRange");
 const priceValue = document.querySelector(".priceValue");
 
+// Display products by search result ============================
+const displayProducts = (filteredProducts) => {
+  productsContainer.innerHTML = filteredProducts
+    .map(
+      (product) =>
+        `
+       <div class="product">
+          <img
+          src=${product.img}
+          alt=""
+          />
+          <span class="name">${product.name}</span>
+          <span class="priceText">$${product.price}</span>
+        </div>
+    `
+    )
+    .join("");
+};
+displayProducts(data);
+
