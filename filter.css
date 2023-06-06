@@ -113,3 +113,27 @@ input[type="range"] {
   border-radius: 50%;
   cursor: pointer;
 }
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+  .container {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .leftMenu{
+    margin: 10px auto 30px auto;
+  }
+
+  .content{
+    margin: 0 auto;
+    min-width: 260px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
