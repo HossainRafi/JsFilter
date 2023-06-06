@@ -58,9 +58,9 @@ const data = [
   },
   {
     id: 9,
-    name: "Girls Pant",
-    img: "https://i.ibb.co/c83ChVd/girls-pant.png",
-    price: 55,
+    name: "Blue Shirt",
+    img: "https://i.ibb.co/6gB5zGQ/blue-mens-shirt.png",
+    price: 49,
     cat: "Dress",
   },
   {
@@ -75,13 +75,6 @@ const data = [
     name: "T-Shirt",
     img: "https://i.ibb.co/FWSNCGK/t-shirt.png",
     price: 25,
-    cat: "Dress",
-  },
-  {
-    id: 12,
-    name: "Blue Shirt",
-    img: "https://i.ibb.co/6gB5zGQ/blue-mens-shirt.png",
-    price: 49,
     cat: "Dress",
   },
 ];
