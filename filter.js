@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: 6,
-    name: "Red Hoddie",
+    name: "Red Hoodie",
     img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
     price: 55,
     cat: "Dress",
@@ -92,7 +92,7 @@ const displayProducts = (filteredProducts) => {
     .map(
       (product) =>
         `
-       <div class="product">
+        <div class="product">
           <img
           src=${product.img}
           alt=""
