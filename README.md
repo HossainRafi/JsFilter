@@ -1,4 +1,4 @@
-## Project Name: [JSFilter](https://filter-web.netlify.app)
+## Project Name: [JsFilter](https://filter-web.netlify.app)
 
 ### Tech Stack:
 - HTML
