@@ -1,14 +1,17 @@
-## Project Name: [JsFilter](https://filter-web.netlify.app)
+# Project Name: [JsFilter](https://filter-web.netlify.app)
 
-### Tech Stack:
+## Technologies:
 - HTML
 - CSS
 - JavaScript
 
 ## Project Description:
-### This is a JavaScript Product Filter E-Commerce application build with HTML, CSS & JavaSceipt
+### This is a Product Filter E-Commerce application build with HTML, CSS & JavaSceipt. Main features of this app:-
+- Search product by name
+- Search product by category
+- Search product by price
 
-## Project Screenshots:
+## Project Images:
 ![app image](https://i.ibb.co/3ptq7bc/1.png)
 ![app image](https://i.ibb.co/9Wmq2j2/2.png)
 ![app image](https://i.ibb.co/hD8kHkN/3.png)
