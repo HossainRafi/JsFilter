@@ -13,5 +13,3 @@
 
 ## Project Images:
 ![app image](https://i.ibb.co/3ptq7bc/1.png)
-![app image](https://i.ibb.co/9Wmq2j2/2.png)
-![app image](https://i.ibb.co/hD8kHkN/3.png)
